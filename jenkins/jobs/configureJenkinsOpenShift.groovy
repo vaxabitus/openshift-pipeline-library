@@ -15,7 +15,7 @@ node {
      */
     stage('Configure URL') {
         openshift.withCluster() {
-            def route = openshift.selector('route', 'jenkins').object()
+            def route = openshift.selector('route', 'jenkins4').object()
             jenkinsUtils.configureRootUrl("https://${route.spec.host}")
         }
     }
