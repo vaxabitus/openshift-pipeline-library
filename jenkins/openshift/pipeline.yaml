@@ -7,7 +7,7 @@ spec:
   source:
     type: "Git"
     git:
-      uri: "https://github.com/RHsyseng/openshift-pipeline-library"
+      uri: "https://github.com/vaxabitus/openshift-pipeline-library"
       ref: "master"
   strategy:
     type: "JenkinsPipeline"

@@ -20,7 +20,7 @@ metadata:
       capable of managing OpenShift Pipeline builds and supporting OpenShift-based
       oauth login.
     template.openshift.io/provider-display-name: RHsyseng
-    template.openshift.io/support-url: https://github.com/RHsyseng/openshift-pipeline-library
+    template.openshift.io/support-url: https://github.com/vaxabitus/openshift-pipeline-library
 objects:
 - kind: ConfigMap
   apiVersion: v1
@@ -48,7 +48,7 @@ objects:
     source:
       contextDir: jenkins
       git:
-        uri: https://github.com/RHsyseng/openshift-pipeline-library
+        uri: https://github.com/vaxabitus/openshift-pipeline-library
       type: Git
     strategy:
       sourceStrategy:
